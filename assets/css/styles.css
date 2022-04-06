@@ -349,7 +349,7 @@ img {
   z-index: var(--z-back);
 }
 
-.skills__html {
+/* .skills__html {
   width: 100%;
 }
 
@@ -367,7 +367,7 @@ img {
 
 .skills__ux {
   width: 100%;
-}
+} */
 
 .skills__img {
   border-radius: .5rem;
