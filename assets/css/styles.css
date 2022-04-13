@@ -191,6 +191,16 @@ img {
 }
 
 /*===== HOME =====*/
+.cv__button {
+  width: auto;
+  display: block;
+  border: none;
+  outline: none;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  margin-left: auto;
+}
+
 .home {
   position: relative;
   row-gap: 5rem;
