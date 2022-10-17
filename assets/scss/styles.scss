@@ -67,7 +67,7 @@ img{
     display: block;
 }
 
-/*===== CLASS CSS ===== */
+/*===== CLASS CSS =====*/
 .section-title{
     position: relative;
     font-size: var(--h2-font-size);
@@ -160,7 +160,8 @@ img{
         cursor: pointer;
     }
 }
-/*Active menu*/
+
+/*=== Active menu ===*/
 .active::after{
     position: absolute;
     content: '';
@@ -223,7 +224,7 @@ img{
     }
 }
 
-/*BUTTONS*/
+/*=== BUTTONS ===*/
 .button{
     display: inline-block;
     background-color: var(--first-color);
@@ -238,7 +239,7 @@ img{
     }
 }
 
-/* ===== ABOUT =====*/
+/*===== ABOUT =====*/
 .about{
     &__container{
         row-gap: 2rem;
@@ -258,7 +259,7 @@ img{
     }
 }
 
-/* ===== SKILLS =====*/
+/*===== SKILLS =====*/
 .skills{
     &__container{
         row-gap: 2rem;
@@ -315,7 +316,8 @@ img{
         border-radius: .5rem;
     }
 }
-/* ===== WORK =====*/
+
+/*===== WORK =====*/
 .work{
     &__container{
         row-gap: 2rem;
@@ -335,7 +337,7 @@ img{
     }
 }
 
-/* ===== CONTACT =====*/
+/*===== CONTACT =====*/
 .contact{
     &__input{
         width: 100%;
@@ -357,7 +359,7 @@ img{
     }
 }
 
-/* ===== FOOTER =====*/
+/*===== FOOTER =====*/
 .footer{
     background-color: var(--second-color);
     color: #fff;
@@ -382,7 +384,7 @@ img{
     }
 }
 
-/* ===== MEDIA QUERIES=====*/
+/*===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px){
     .home{
         row-gap: 2rem;
