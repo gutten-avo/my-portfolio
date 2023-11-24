@@ -548,6 +548,10 @@ textarea {
 
 /* ===== FOOTER =====*/
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: var(--second-color);
   color: #fff;
   text-align: center;
@@ -555,9 +559,14 @@ textarea {
   padding: 2rem 0;
 }
 
+.footer__logo {
+  margin-bottom: var(--mb-2);
+  width: 70px;
+  height: 70px;
+}
+
 .footer__title {
   font-size: 2rem;
-  margin-bottom: var(--mb-4);
 }
 
 .footer__social {
