@@ -45,15 +45,15 @@ window.addEventListener('scroll', scrollActive)
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
-    duration: 2000,
+    duration: 1000,
     delay: 200,
-//     reset: true
+    reset: true
 });
 
-sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
-sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
-sr.reveal('.home__social-icon',{ interval: 200}); 
-sr.reveal('.work__card, .skills__data, .contact__input, .contact__text, .contact__button',{interval: 200}); 
+// sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
+sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 150}); 
+sr.reveal('.home__social-icon',{ interval: 100}); 
+sr.reveal('.work__card, .skills__data, .contact__input, .contact__text, .contact__button',{interval: 100}); 
 
 /*===== Formspree =====*/
 // var form = document.getElementById("my-form");
