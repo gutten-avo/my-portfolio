@@ -53,7 +53,7 @@ const sr = ScrollReveal({
 // sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 150}); 
 sr.reveal('.home__social-icon',{ interval: 100}); 
-sr.reveal('.work__card, .skills__data, .contact__input, .contact__text, .contact__button',{interval: 100}); 
+sr.reveal('.work__card, .skills__data, .contact__text',{interval: 100}); 
 
 /*===== Formspree =====*/
 // var form = document.getElementById("my-form");
